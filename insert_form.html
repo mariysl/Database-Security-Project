@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Insert Form</title>
+</head>
+<body>
+    <h2>Add New Student</h2>
+    <form action="insert.php" method="POST">
+        <label>First Name:</label><br>
+        <input type="text" name="first_name" required><br><br>
+        <label>Last Name:</label><br>
+        <input type="text" name="last_name" required><br><br>
+        <label>Birth Date:</label><br>
+        <input type="date" name="birth_date" required><br><br>
+        <label>Grade:</label><br>
+        <input type="number" name="grade" min="0" max="100" required><br><br>
+        <input type="submit" value="Add Student">
+    </form>
+</body>
+</html>
